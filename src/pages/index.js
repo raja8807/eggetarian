@@ -1,5 +1,6 @@
 // import { useState } from "react";
 
+import Header from "@/components/layout/header/header";
 import HomePage from "@/components/pages/home/home";
 
 const Home = () => {
@@ -7,6 +8,7 @@ const Home = () => {
 
   return (
     <>
+      <Header />
       <HomePage />
     </>
   );

@@ -5,9 +5,9 @@ import CustomButton from "@/components/ui/custom_button/custom_button";
 const Banner = () => {
   return (
     <div className={styles.banner}>
+        <div className={styles.overlay}></div>
       <div className={styles.banner_bg}>
         <div className={`${styles.banner_image} ${styles.image_1}`}
-       
         >
           <Image src="/images/banner/egg1.png" fluid alt="egg_1" />
         </div>
