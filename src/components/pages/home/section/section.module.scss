@@ -1,4 +1,25 @@
-.section{
-    // background-color: red;
-    min-height: 100vh;
+.section {
+  // background-color: red;
+  min-height: 100vh;
+
+  h1 {
+    text-align: center;
+    // border: 1px solid red;
+    padding: 20px;
+    font-weight: 600;
+  }
+
+  &.yellow {
+    background-color: $color_yellow;
+    h1 {
+      color: $color_brown;
+    }
+  }
+
+  &.violet{
+    background-color: $color_violet;
+    h1 {
+        color: $color_yellow;
+      }
+  }
 }

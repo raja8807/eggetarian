@@ -6,7 +6,9 @@ const Banner = () => {
   return (
     <div className={styles.banner}>
       <div className={styles.banner_bg}>
-        <div className={`${styles.banner_image} ${styles.image_1}`}>
+        <div className={`${styles.banner_image} ${styles.image_1}`}
+       
+        >
           <Image src="/images/banner/egg1.png" fluid alt="egg_1" />
         </div>
         <div className={`${styles.banner_image} ${styles.image_2}`}>
@@ -17,14 +19,19 @@ const Banner = () => {
         </div>
       </div>
       <div className={styles.content}>
-        <div className={styles.logo}>
+        <div className={styles.logo}  data-aos="fade-down">
           <Image src="/images/logo/logo.png" fluid alt="logo" />
         </div>
-        <div>
+        <div  data-aos="fade-left">
           <h1>EGGETARIAN</h1>
           <p>For Egg Lovers</p>
         </div>
-        <CustomButton>Expolore Dishes</CustomButton>
+        <div>
+            
+        </div>
+        <CustomButton
+        
+        >Expolore Dishes</CustomButton>
       </div>
     </div>
   );
