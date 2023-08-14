@@ -1,5 +1,6 @@
 import Banner from "./section/banner/banner";
 import Dishes from "./section/dishes/dishes";
+import Menu from "./section/menu/menu";
 import Section from "./section/section";
 
 const HomePage = () => {
@@ -12,9 +13,8 @@ const HomePage = () => {
         <Dishes />
       </Section>
       <Section heading="Our Menu" varient="violet">
-        <Dishes />
+        <Menu />
       </Section>
-      {/* <Section>section 3</Section> */}
     </>
   );
 };

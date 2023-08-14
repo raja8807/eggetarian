@@ -6,7 +6,7 @@ const SmallCard = ({dish}) => {
   return (
     <div className={styles.small_card} data-aos="flip-left">
       <div className={styles.card_img}>
-        <Image src="/images/dishes/dish1.jpg" fluid />
+        <Image src={`/images/dishes/${dish.img}.jpg`} fluid alt={dish.img}/>
       </div>
       <div className={styles.details}>
         <h3>{dish.name}</h3>
